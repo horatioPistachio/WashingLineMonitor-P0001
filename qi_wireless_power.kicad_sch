@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "8816c6bc-aecc-4e5f-9337-132b55a477bb")
 	(paper "A4")
+	(title_block
+		(title "WashingLineMonitor-P0001")
+		(date "2025-09-14")
+		(rev "AB")
+		(company "Horatio Pistachio")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:BQ51050BRHL"
 			(exclude_from_sim no)
@@ -457,6 +463,113 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1069,386 +1182,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:MBR0530"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MBR0530"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MBR0530_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MBR0530_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Hydro_symbols:NTJD4152PT1G"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 25.4 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "NTJD4152PT1G"
-				(at 25.4 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntjd4152p-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NTJD4152PT1G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT-363-6_2P2X1P35_ONS SOT-363-6_2P2X1P35_ONS-M SOT-363-6_2P2X1P35_ONS-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NTJD4152PT1G_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 43.18 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 -10.16) (xy 43.18 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "SOURCE1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "GATE1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "DRAIN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 50.8 0 180)
-					(length 7.62)
-					(name "DRAIN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 50.8 -2.54 180)
-					(length 7.62)
-					(name "GATE2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 50.8 -5.08 180)
-					(length 7.62)
-					(name "SOURCE2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1571,7 +1304,7 @@
 		)
 		(uuid "a6292f36-8644-4b17-9456-0edd06cfa468")
 	)
-	(text_box "From BQ51050BRHL datasheet application example\nAssuming L's (inductance in setup) and Ls (free space inductance)\nare the same at 100khz\nL's  = 13 uH (WR483245)\nR = 0.2 ohm(WR483245)\nfS is 100 kHz +5/-10%\nfD is 1 MHz ±10%\nhence:\nC1 = 19uF ~= 18uF +1uF\nC2 = 1.95 nF ~= 1nF + 1nF\nQ = 408 (>77 therefore good)\n"
+	(text_box "From BQ51050BRHL datasheet application example\nAssuming L's (inductance in setup) and Ls (free space inductance)\nare the same at 100khz\nL's  = 13 uH (WR483245)\nR = 0.2 ohm(WR483245)\nfS is 100 kHz +5/-10%\nfD is 1 MHz ±10%\nhence:\nC1 = 19uF ~= 10uF + 4.7uF + 4.7uF\nC2 = 1.95 nF ~= 1nF + 1nF\nQ = 408 (>77 therefore good)\n"
 		(exclude_from_sim no)
 		(at 16.51 17.78 0)
 		(size 60.96 76.2)
@@ -1640,16 +1373,16 @@
 		(uuid "4636be00-2c20-410b-8409-d84b1c6be4a4")
 	)
 	(junction
-		(at 152.4 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d32fecb-23f3-4bb2-997b-15c668b26c42")
-	)
-	(junction
 		(at 245.11 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53350314-088c-4141-8dcb-7022175f60fb")
+	)
+	(junction
+		(at 121.92 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54e8256a-7551-46e9-afb1-17cb5427e444")
 	)
 	(junction
 		(at 219.71 91.44)
@@ -1682,12 +1415,6 @@
 		(uuid "9cb7f9f4-eb38-4dd8-a20d-878ac31c6935")
 	)
 	(junction
-		(at 121.92 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ec6dff0-783f-44b8-ba11-5713c2d12b2c")
-	)
-	(junction
 		(at 121.92 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1712,16 +1439,22 @@
 		(uuid "bd2c3855-cee5-42fb-bb9f-942c761c66b3")
 	)
 	(junction
-		(at 264.16 36.83)
+		(at 99.06 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c671dffb-b3ba-4f7b-993e-e1b98f5f0270")
+		(uuid "cd876e36-89f0-4158-9106-f60291026581")
 	)
 	(junction
 		(at 237.49 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6b92197-df85-4b6b-b7f5-8d1c804637ef")
+	)
+	(junction
+		(at 207.01 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbc3b5ca-a7b1-49db-915a-783e4a540347")
 	)
 	(junction
 		(at 256.54 123.19)
@@ -1741,6 +1474,12 @@
 		(color 0 0 0 0)
 		(uuid "e8e9a184-a1ec-4e30-84dc-d756a01ef95e")
 	)
+	(junction
+		(at 121.92 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecabfa3b-71b5-4e66-b6d6-aaa374fc6b89")
+	)
 	(wire
 		(pts
 			(xy 148.59 119.38) (xy 139.7 119.38)
@@ -1753,7 +1492,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 38.1) (xy 121.92 53.34)
+			(xy 121.92 38.1) (xy 121.92 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1803,16 +1542,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 54.61) (xy 229.87 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07905464-a55e-49f8-81aa-3852c5ae78fb")
-	)
-	(wire
-		(pts
 			(xy 193.04 88.9) (xy 201.93 88.9)
 		)
 		(stroke
@@ -1833,13 +1562,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 66.04) (xy 198.12 66.04)
+			(xy 207.01 76.2) (xy 209.55 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ec9a88f-f3e5-490c-9877-9750a1c39d37")
+		(uuid "0e0f23e4-4d01-491a-8a76-879eecb47a3c")
 	)
 	(wire
 		(pts
@@ -1863,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 60.96) (xy 113.03 60.96)
+			(xy 121.92 45.72) (xy 113.03 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1913,6 +1642,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 59.69) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5dda05-48cc-449d-9718-9668804e16b9")
+	)
+	(wire
+		(pts
 			(xy 151.13 132.08) (xy 139.7 132.08)
 		)
 		(stroke
@@ -1950,16 +1689,6 @@
 			(type default)
 		)
 		(uuid "2501b4a2-b35d-4fb4-be14-15e02fcb8d3e")
-	)
-	(wire
-		(pts
-			(xy 121.92 72.39) (xy 121.92 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26dc08d1-2d5c-4b49-a07e-eed241d25dc8")
 	)
 	(wire
 		(pts
@@ -2003,16 +1732,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 63.5) (xy 152.4 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36c76154-1767-438f-b8b8-6a23d6e2a624")
-	)
-	(wire
-		(pts
 			(xy 228.6 63.5) (xy 228.6 64.77)
 		)
 		(stroke
@@ -2040,6 +1759,16 @@
 			(type default)
 		)
 		(uuid "3b014018-cd9b-482d-890b-2ed4c03a0074")
+	)
+	(wire
+		(pts
+			(xy 160.02 63.5) (xy 167.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f10b86b-a9d8-490c-b483-9f0d16cb920c")
 	)
 	(wire
 		(pts
@@ -2133,16 +1862,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 63.5) (xy 264.16 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48dd36e2-1f1b-4787-a29b-9c22c9cb73a7")
-	)
-	(wire
-		(pts
 			(xy 199.39 80.01) (xy 210.82 80.01)
 		)
 		(stroke
@@ -2183,13 +1902,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 229.87 54.61)
+			(xy 160.02 66.04) (xy 160.02 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "514aa405-3ee9-4f4c-b4cf-ed2f345983e5")
+		(uuid "52cb7f21-ffe3-435e-a1a1-ac8af52a675e")
 	)
 	(wire
 		(pts
@@ -2223,16 +1942,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 39.37) (xy 167.64 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d2cd209-685c-4175-8500-a0af5c064007")
-	)
-	(wire
-		(pts
 			(xy 201.93 88.9) (xy 201.93 83.82)
 		)
 		(stroke
@@ -2263,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 60.96) (xy 99.06 72.39)
+			(xy 99.06 45.72) (xy 99.06 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2303,16 +2012,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 152.4 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a884d2-f70d-4ffe-baac-9775bce641b3")
-	)
-	(wire
-		(pts
 			(xy 219.71 123.19) (xy 245.11 123.19)
 		)
 		(stroke
@@ -2320,16 +2019,6 @@
 			(type default)
 		)
 		(uuid "77839882-2f0a-4336-8ac2-130d0f91ee4f")
-	)
-	(wire
-		(pts
-			(xy 238.76 41.91) (xy 218.44 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a6f6414-274a-40b7-a241-4861d4023182")
 	)
 	(wire
 		(pts
@@ -2353,16 +2042,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 152.4 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8675b442-665b-4999-800f-25205887638d")
-	)
-	(wire
-		(pts
 			(xy 167.64 73.66) (xy 149.86 73.66)
 		)
 		(stroke
@@ -2380,6 +2059,26 @@
 			(type default)
 		)
 		(uuid "8d0a20fb-e415-4c25-96a4-0123af44b72e")
+	)
+	(wire
+		(pts
+			(xy 121.92 53.34) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d74ed1d-63e0-4cce-9ef0-674c9592c928")
+	)
+	(wire
+		(pts
+			(xy 121.92 59.69) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f535913-1b57-48be-bb7c-a8ab040780ce")
 	)
 	(wire
 		(pts
@@ -2483,16 +2182,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 53.34) (xy 121.92 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a31f805c-bacf-4afc-b7d8-e8e5841b64b8")
-	)
-	(wire
-		(pts
 			(xy 121.92 24.13) (xy 121.92 38.1)
 		)
 		(stroke
@@ -2503,7 +2192,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 60.96) (xy 105.41 60.96)
+			(xy 99.06 45.72) (xy 105.41 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2523,23 +2212,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 41.91) (xy 167.64 41.91)
+			(xy 121.92 45.72) (xy 121.92 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aad1adc1-2fee-4610-8b3e-7fa0551c2686")
-	)
-	(wire
-		(pts
-			(xy 264.16 36.83) (xy 273.05 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab6e198f-296a-4045-bb8f-75ede1917357")
+		(uuid "ac6e1661-ae38-4ab6-be27-a08342ecbf16")
 	)
 	(wire
 		(pts
@@ -2593,23 +2272,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 22.86) (xy 238.76 41.91)
+			(xy 193.04 66.04) (xy 205.74 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba4e9aa7-1d07-4b5a-85e6-2f5fcc5d34d1")
-	)
-	(wire
-		(pts
-			(xy 264.16 36.83) (xy 264.16 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba76b175-ef73-49b8-a312-833fbc8be8aa")
+		(uuid "be847d9a-83ec-47dc-a4a2-d8a05ca21cad")
 	)
 	(wire
 		(pts
@@ -2623,16 +2292,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 39.37) (xy 218.44 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c44f1417-dd0f-488b-9e77-19b8210e0b92")
-	)
-	(wire
-		(pts
 			(xy 193.04 91.44) (xy 219.71 91.44)
 		)
 		(stroke
@@ -2640,16 +2299,6 @@
 			(type default)
 		)
 		(uuid "c48b8877-b8ab-45ed-809c-e1d23874b5b0")
-	)
-	(wire
-		(pts
-			(xy 167.64 22.86) (xy 238.76 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5c700b0-677b-4222-bb8d-c0b9a4bf9eaf")
 	)
 	(wire
 		(pts
@@ -2690,6 +2339,26 @@
 			(type default)
 		)
 		(uuid "cb06c61f-a283-4323-a19e-48423cf278eb")
+	)
+	(wire
+		(pts
+			(xy 99.06 59.69) (xy 105.41 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d072f0f1-7e8e-4fff-8513-f38c598b37c3")
+	)
+	(wire
+		(pts
+			(xy 99.06 59.69) (xy 99.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16e0f13-f748-4300-8c58-c0d3d773d395")
 	)
 	(wire
 		(pts
@@ -2743,6 +2412,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 60.96) (xy 160.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da62537a-0f8c-40b8-8cd2-744386f8c465")
+	)
+	(wire
+		(pts
 			(xy 196.85 123.19) (xy 207.01 123.19)
 		)
 		(stroke
@@ -2783,16 +2462,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 36.83) (xy 264.16 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8b5b82e-a0ee-4e83-9ccd-eced6bf7a078")
-	)
-	(wire
-		(pts
 			(xy 193.04 93.98) (xy 240.03 93.98)
 		)
 		(stroke
@@ -2820,16 +2489,6 @@
 			(type default)
 		)
 		(uuid "f2fe82a0-24c5-4e77-92e1-f9592b76e297")
-	)
-	(wire
-		(pts
-			(xy 167.64 36.83) (xy 167.64 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f39494e5-006c-4005-aa01-88f8b5d85837")
 	)
 	(wire
 		(pts
@@ -8796,75 +8455,9 @@
 			"QFTptgAAAACIKt0WAAAAAFGl2wIAAAAgqnRbAAAAAETVv2IiM9YE08LxAAAAAElFTkSuQmCC"
 		)
 	)
-	(global_label "Vin"
-		(shape output)
-		(at 273.05 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1f78126e-e77d-4231-84a8-5458ec6be73a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.8776 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vusb"
-		(shape input)
-		(at 160.02 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29e70152-18ea-41e9-bfc7-7b1188bdae77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6201 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vusb"
-		(shape input)
-		(at 163.83 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "60380a6c-20df-453f-a8f3-72fbead0ea9c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.4301 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CHARGE_STATUS"
 		(shape output)
-		(at 198.12 66.04 0)
+		(at 205.74 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8874,7 +8467,7 @@
 		)
 		(uuid "87eaa7f3-0a67-4719-b85b-f69a98c528b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.2242 66.04 0)
+			(at 223.8442 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,7 +8500,7 @@
 		)
 	)
 	(global_label "QI_EN2"
-		(shape output)
+		(shape input)
 		(at 210.82 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8919,6 +8512,28 @@
 		(uuid "dc4b1aa8-3464-4f99-8e20-f8d321841033")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.3971 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NTC_BATT"
+		(shape input)
+		(at 209.55 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8739d22-8456-483b-96e2-8b9c4aa071d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.3647 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8973,6 +8588,24 @@
 			)
 		)
 		(property "Description" "Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.2V, VQFN-20"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "296-BQ51050BRHLRCT-ND"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -9045,91 +8678,9 @@
 			(uuid "06802269-ba9d-4958-be96-1c34fcf647f3")
 		)
 		(instances
-			(project ""
+			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hydro_symbols:NTJD4152PT1G")
-		(at 167.64 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27ce1a98-32ea-43a7-901b-80e05f7c599e")
-		(property "Reference" "U3"
-			(at 193.04 26.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NTJD4152PT1G"
-			(at 193.04 29.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
-			(at 167.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntjd4152p-d.pdf"
-			(at 167.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6e7a476-06e1-4efc-b831-75080c972921")
-		)
-		(pin "1"
-			(uuid "41b50b42-165c-4bbe-a17f-60505fa15223")
-		)
-		(pin "6"
-			(uuid "23daaa2c-97c0-43ed-867c-dd3b0fb36303")
-		)
-		(pin "5"
-			(uuid "f91e02c6-94d8-49b7-b479-496f2531d227")
-		)
-		(pin "4"
-			(uuid "be69f67f-64c1-4504-9248-7ba90029c455")
-		)
-		(pin "3"
-			(uuid "5e04d737-9e19-4e5f-8199-169540a4575d")
-		)
-		(instances
-			(project ""
-				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9163,7 +8714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 120.9548 86.36 0)
 			(effects
 				(font
@@ -9182,6 +8733,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-2425-1-ND"
 			(at 121.92 90.17 0)
 			(effects
 				(font
@@ -9299,7 +8868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief"
 			(at 91.44 83.82 0)
 			(effects
 				(font
@@ -9326,6 +8895,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Part Number" "445-16091-ND"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "529ec3c2-04b0-426f-979f-b3618e55cf64")
 		)
@@ -9333,9 +8920,76 @@
 			(uuid "ab057af5-459c-4f97-99d3-1ad9adf05035")
 		)
 		(instances
-			(project ""
+			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "493891d4-fbbb-45f1-aed6-46b523dad0e2")
+		(property "Reference" "AD-EN1"
+			(at 162.56 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 162.56 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a667d6c-ef24-4315-8862-0c7053fffb6f")
+		)
+		(instances
+			(project ""
+				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
+					(reference "AD-EN1")
 					(unit 1)
 				)
 			)
@@ -9367,7 +9021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 132.08 133.0452 0)
 			(effects
 				(font
@@ -9387,6 +9041,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 135.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-2488-1-ND"
+			(at 135.89 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 135.89 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +9109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 120.9548 74.93 0)
 			(effects
 				(font
@@ -9464,6 +9136,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Digikey"
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-2425-1-ND"
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7d76f5a-0aea-4df4-9440-cca4225a411b")
 		)
@@ -9474,6 +9164,72 @@
 			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68470381-9b6e-49f1-abe3-5b57475338ef")
+		(property "Reference" "#PWR09"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53d976e3-1094-4cb9-98a2-08b006291fb0")
+		)
+		(instances
+			(project "WashingLineMonitor-P0001"
+				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9505,7 +9261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.81 25.0952 0)
 			(effects
 				(font
@@ -9525,6 +9281,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 134.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-2488-1-ND"
+			(at 134.62 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 134.62 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9575,7 +9349,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 267.0048 106.68 0)
 			(effects
 				(font
@@ -9594,6 +9368,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-1003-1-ND"
 			(at 267.97 110.49 0)
 			(effects
 				(font
@@ -9635,7 +9427,7 @@
 				)
 			)
 		)
-		(property "Value" "18uF"
+		(property "Value" "10uF"
 			(at 109.22 67.31 90)
 			(effects
 				(font
@@ -9643,7 +9435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 113.03 71.4248 0)
 			(effects
 				(font
@@ -9663,6 +9455,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 109.22 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-1096-1-ND"
+			(at 109.22 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +9523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 227.6348 64.77 0)
 			(effects
 				(font
@@ -9732,6 +9542,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-1003-1-ND"
 			(at 228.6 68.58 0)
 			(effects
 				(font
@@ -9783,7 +9611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 244.1448 64.77 0)
 			(effects
 				(font
@@ -9802,6 +9630,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 245.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 245.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-1029-1-ND"
 			(at 245.11 68.58 0)
 			(effects
 				(font
@@ -9844,7 +9690,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "430R"
+		(property "Value" "430"
 			(at 222.25 88.8999 0)
 			(effects
 				(font
@@ -9853,7 +9699,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 221.488 87.63 90)
 			(effects
 				(font
@@ -9880,6 +9726,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Digikey"
+			(at 219.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "P430DACT-ND"
+			(at 219.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0231cdb-943a-4dd5-a234-87aab4f60e7c")
 		)
@@ -9887,7 +9751,7 @@
 			(uuid "eb43f0a5-149c-4474-acfe-91d73764dc7e")
 		)
 		(instances
-			(project ""
+			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
 					(reference "R7")
 					(unit 1)
@@ -9921,7 +9785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.81 39.0652 0)
 			(effects
 				(font
@@ -9941,6 +9805,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 134.62 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-6480-1-ND"
+			(at 134.62 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 134.62 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +9873,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 244.1448 106.68 0)
 			(effects
 				(font
@@ -10010,6 +9892,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-1096-1-ND"
 			(at 245.11 110.49 0)
 			(effects
 				(font
@@ -10059,7 +9959,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 132.08 120.3452 0)
 			(effects
 				(font
@@ -10079,6 +9979,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 135.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 135.89 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-6480-1-ND"
+			(at 135.89 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +10111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.81 54.3052 0)
 			(effects
 				(font
@@ -10213,6 +10131,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 134.62 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-1015-1-ND"
+			(at 134.62 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10190,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.4kR"
+		(property "Value" "2.4k"
 			(at 199.39 106.6799 0)
 			(effects
 				(font
@@ -10263,7 +10199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 198.628 105.41 90)
 			(effects
 				(font
@@ -10290,6 +10226,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Digikey"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "P2.4KDACT-ND"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ecd72a35-a501-4c0b-8672-ae6d789426b0")
 		)
@@ -10307,7 +10261,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 60.96 90)
+		(at 109.22 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10316,23 +10270,23 @@
 		(fields_autoplaced yes)
 		(uuid "dabbc54b-f9c8-4c82-b391-1b179de52dbd")
 		(property "Reference" "C4"
-			(at 109.22 53.34 90)
+			(at 109.22 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
-			(at 109.22 55.88 90)
+		(property "Value" "4.7uF"
+			(at 109.22 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.03 59.9948 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 113.03 44.7548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +10295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 60.96 0)
+			(at 109.22 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10350,7 +10304,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 60.96 0)
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 109.22 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-1244-1-ND"
+			(at 109.22 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,79 +10337,9 @@
 			(uuid "f581b720-5c0a-4e0f-9357-69d907bfbb79")
 		)
 		(instances
-			(project ""
+			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:MBR0530")
-		(at 264.16 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e180fcdb-de3a-45fd-a696-587b33634c0e")
-		(property "Reference" "D1"
-			(at 266.7 46.6724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBR0530"
-			(at 266.7 49.2124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 259.715 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 264.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 264.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f7102a73-daa8-42b2-9547-d5f3eabf3631")
-		)
-		(pin "1"
-			(uuid "727b5888-efaf-4a44-b522-4a2f7ec833ca")
-		)
-		(instances
-			(project ""
-				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10471,7 +10373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief"
 			(at 264.16 69.596 90)
 			(effects
 				(font
@@ -10498,6 +10400,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Core Electronics"
+			(at 264.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "CE04377"
+			(at 264.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a37f2be4-6464-437d-af47-98fdca946131")
 		)
@@ -10505,7 +10425,7 @@
 			(uuid "e9f7a72b-29db-46e3-95c4-7ea56c5f3507")
 		)
 		(instances
-			(project ""
+			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
 					(reference "BT3")
 					(unit 1)
@@ -10531,7 +10451,7 @@
 				)
 			)
 		)
-		(property "Value" "20kR"
+		(property "Value" "20k"
 			(at 231.14 87.63 90)
 			(effects
 				(font
@@ -10539,7 +10459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 231.14 89.662 90)
 			(effects
 				(font
@@ -10559,6 +10479,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 231.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 231.14 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "P20KACT-ND"
+			(at 231.14 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,7 +10545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 132.08 107.6452 0)
 			(effects
 				(font
@@ -10634,6 +10572,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Digikey"
+			(at 135.89 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-1015-1-ND"
+			(at 135.89 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c075a7c2-2541-4bad-9112-3ddfbf4f4e92")
 		)
@@ -10644,6 +10600,92 @@
 			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4ab93b7-f45f-4cfb-9fb7-f61615eeacb5")
+		(property "Reference" "C3"
+			(at 109.22 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 109.22 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 113.03 58.7248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 109.22 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-1244-1-ND"
+			(at 109.22 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f890f7c-2cc6-4148-bf67-3c67ce5c763d")
+		)
+		(pin "1"
+			(uuid "4c63905d-d7b5-41ed-a3c5-514c7c214d94")
+		)
+		(instances
+			(project "WashingLineMonitor-P0001"
+				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10677,7 +10719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 255.5748 106.68 0)
 			(effects
 				(font
@@ -10696,6 +10738,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-1096-1-ND"
 			(at 256.54 110.49 0)
 			(effects
 				(font
@@ -10738,7 +10798,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kR"
+		(property "Value" "10k"
 			(at 209.55 106.6799 0)
 			(effects
 				(font
@@ -10747,7 +10807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 208.788 105.41 90)
 			(effects
 				(font
@@ -10766,6 +10826,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "P10KACT-ND"
 			(at 207.01 105.41 0)
 			(effects
 				(font

@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "09468f75-1295-4aed-9d66-1cbb46f6d9f7")
 	(paper "A4")
+	(title_block
+		(title "WashingLineMonitor-P0001")
+		(date "2025-09-14")
+		(rev "AB")
+		(company "Horatio Pistachio")
+		(comment 1 "AA - Original")
+		(comment 2 "AB - Updated from AI review")
+	)
 	(lib_symbols)
 	(sheet
 		(at 44.45 25.4)
