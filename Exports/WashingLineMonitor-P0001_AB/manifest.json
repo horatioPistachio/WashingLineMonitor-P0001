@@ -1,0 +1,245 @@
+{
+  "project": {
+    "name": "WashingLineMonitor-P0001",
+    "dir": "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001",
+    "pro": "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\WashingLineMonitor-P0001.kicad_pro",
+    "pcb": "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\WashingLineMonitor-P0001.kicad_pcb",
+    "sch": "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\WashingLineMonitor-P0001.kicad_sch",
+    "safe_name": "WashingLineMonitor-P0001"
+  },
+  "tag": "AB",
+  "tag_safe": "AB",
+  "timestamp_utc": "2025-09-14T02:06:11Z",
+  "host": {
+    "os": "Windows",
+    "release": "10",
+    "python": "3.11.9"
+  },
+  "tools": {
+    "kicad_cli_path": "C:/Program Files/KiCad/9.0/bin/kicad-cli.exe",
+    "kicad_cli_version": "9.0.3"
+  },
+  "config": {
+    "general": {
+      "clean_output": true,
+      "zip_gerbers": true,
+      "fail_fast": true,
+      "kicad_cli": null
+    },
+    "gerbers": {
+      "enabled": true,
+      "layers": [
+        "F.Cu",
+        "B.Cu",
+        "F.Paste",
+        "B.Paste",
+        "F.SilkS",
+        "B.SilkS",
+        "F.Mask",
+        "B.Mask",
+        "Edge.Cuts"
+      ],
+      "drill": {
+        "enabled": true,
+        "units": "mm",
+        "map_format": "gerber",
+        "merge_npth": false
+      }
+    },
+    "pcb_pdf": {
+      "enabled": true,
+      "layers": [
+        "F.Cu",
+        "B.Cu",
+        "F.SilkS",
+        "B.SilkS",
+        "F.Mask",
+        "B.Mask",
+        "Edge.Cuts"
+      ],
+      "monochrome": false,
+      "include_title_block": true,
+      "page_size": "A4"
+    },
+    "schematics_pdf": {
+      "enabled": true,
+      "monochrome": false,
+      "page_size": "A4",
+      "include_title_block": true
+    },
+    "step": {
+      "enabled": true,
+      "units": "mm",
+      "include_tracks_zones": false,
+      "model_precision": "high",
+      "ignore_missing_models": true,
+      "fallback_board_only": true
+    },
+    "bom": {
+      "enabled": true,
+      "method": "cli",
+      "output_format": "csv",
+      "plugin": "bom_csv_grouped_by_value",
+      "plugin_args": [],
+      "fields": [
+        "Reference",
+        "${QUANTITY}",
+        "Value",
+        "Footprint",
+        "Supplier",
+        "Supplier Part Number",
+        "${DNP}"
+      ],
+      "group_by": [
+        "Value",
+        "Footprint"
+      ]
+    }
+  },
+  "outputs": {
+    "gerbers_zip": "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB_gerbers.zip",
+    "step": "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB.step",
+    "pcb_pdf": "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB_PCB.pdf",
+    "schematics_pdf": "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB.pdf",
+    "bom_csv": "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB_BOM.csv"
+  },
+  "outputs_dir": "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB",
+  "invoked_commands": [
+    {
+      "cmd": [
+        "C:/Program Files/KiCad/9.0/bin/kicad-cli.exe",
+        "--version"
+      ],
+      "cwd": null,
+      "code": 0,
+      "stdout_preview": "9.0.3",
+      "stderr_preview": ""
+    },
+    {
+      "cmd": [
+        "C:/Program Files/KiCad/9.0/bin/kicad-cli.exe",
+        "pcb",
+        "export",
+        "gerbers",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\WashingLineMonitor-P0001.kicad_pcb",
+        "-o",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\gerbers",
+        "--layers",
+        "F.Cu,B.Cu,F.Paste,B.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts"
+      ],
+      "cwd": null,
+      "code": 0,
+      "stdout_preview": "Plotted to 'C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\gerbers\\WashingLineMonitor-P0001-F_Cu.gtl'.\nPlotted to 'C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\gerbers\\WashingLineMonitor-P0001-B_Cu.gbl'.\nPlotted to 'C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P000",
+      "stderr_preview": ""
+    },
+    {
+      "cmd": [
+        "C:/Program Files/KiCad/9.0/bin/kicad-cli.exe",
+        "pcb",
+        "export",
+        "drill",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\WashingLineMonitor-P0001.kicad_pcb",
+        "-o",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\gerbers",
+        "--excellon-units",
+        "mm",
+        "--generate-map",
+        "--map-format",
+        "gerberx2",
+        "--excellon-separate-th"
+      ],
+      "cwd": null,
+      "code": 0,
+      "stdout_preview": "Created file 'C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\gerbers\\WashingLineMonitor-P0001-PTH.drl'\nCreated file 'C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\gerbers\\WashingLineMonitor-P0001-NPTH.drl'\nCreated file 'C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P",
+      "stderr_preview": ""
+    },
+    {
+      "cmd": [
+        "C:/Program Files/KiCad/9.0/bin/kicad-cli.exe",
+        "pcb",
+        "export",
+        "step",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\WashingLineMonitor-P0001.kicad_pcb",
+        "-o",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB.step"
+      ],
+      "cwd": null,
+      "code": 2,
+      "stdout_preview": "Determining PCB data.\nBuild STEP data.\nAdding component R1.\nAdding component C1.\nAdding component C18.\nAdding component C5.\nAdding component C9.\nAdding component C19.\nAdding component C23.\nAdding component C22.\nAdding component R9.\nAdding component R3.\nAdding component U6.\nAdding component C3.\nAdding component R2.\nAdding component C11.\nAdding component C13.\nAdding component D1.\n*** ERR StepReaderData : Unresolved Reference : Fails Count : 1 ***\nAdding component R10.\nAdding component C14.\nAdding ",
+      "stderr_preview": "Could not add 3D model for J1.\nFile not found: ${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief.step\nCould not add 3D model for L1.\nFile not found: ${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief.step\nCould not add 3D model for BT3.\nFile not found: ${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief.step"
+    },
+    {
+      "cmd": [
+        "C:/Program Files/KiCad/9.0/bin/kicad-cli.exe",
+        "pcb",
+        "export",
+        "step",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\WashingLineMonitor-P0001.kicad_pcb",
+        "-o",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB.step",
+        "--board-only"
+      ],
+      "cwd": null,
+      "code": 0,
+      "stdout_preview": "Determining PCB data.\nBuild STEP data.\nCreate PCB solid model.\nBoard outline: found 52 initial points.\nBuild board outlines (1 outlines) with 52 points.\nBuild board cutouts and holes (127 hole(s)).\nSubtracting holes for shapes\nSubtracting holes for pads\nSubtracting holes for vias\nGenerate board full shape.\nWriting STEP file.\n\n*******************************************************************\n******        Statistics on Transfer (Write)                 ******\n\n***********************************",
+      "stderr_preview": ""
+    },
+    {
+      "cmd": [
+        "C:/Program Files/KiCad/9.0/bin/kicad-cli.exe",
+        "pcb",
+        "export",
+        "pdf",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\WashingLineMonitor-P0001.kicad_pcb",
+        "-o",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\_pcb_pdf_tmp",
+        "--layers",
+        "F.Cu,B.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts",
+        "--mode-multipage",
+        "--include-border-title"
+      ],
+      "cwd": null,
+      "code": 0,
+      "stdout_preview": "Plotted to 'C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\_pcb_pdf_tmp\\WashingLineMonitor-P0001.pdf'.\nDone.",
+      "stderr_preview": ""
+    },
+    {
+      "cmd": [
+        "C:/Program Files/KiCad/9.0/bin/kicad-cli.exe",
+        "sch",
+        "export",
+        "pdf",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\WashingLineMonitor-P0001.kicad_sch",
+        "-o",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB.pdf"
+      ],
+      "cwd": null,
+      "code": 0,
+      "stdout_preview": "Plotted to 'C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB.pdf'.\nDone.",
+      "stderr_preview": ""
+    },
+    {
+      "cmd": [
+        "C:/Program Files/KiCad/9.0/bin/kicad-cli.exe",
+        "sch",
+        "export",
+        "bom",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\WashingLineMonitor-P0001.kicad_sch",
+        "-o",
+        "C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB_BOM.csv",
+        "--format-preset",
+        "CSV",
+        "--fields",
+        "Reference,${QUANTITY},Value,Footprint,Supplier,Supplier Part Number,${DNP}",
+        "--labels",
+        "Reference,Qty,Value,Footprint,Supplier,Supplier Part Number,DNP",
+        "--group-by",
+        "Value,Footprint"
+      ],
+      "cwd": null,
+      "code": 0,
+      "stdout_preview": "Wrote bill of materials to 'C:\\Users\\bazdo\\OneDrive - Horatio Pistachio\\projects\\WashingLineMonitor\\ECAD\\WashingLineMonitor-P0001\\Exports\\WashingLineMonitor-P0001_AB\\WashingLineMonitor-P0001_AB_BOM.csv'.",
+      "stderr_preview": ""
+    }
+  ]
+}
