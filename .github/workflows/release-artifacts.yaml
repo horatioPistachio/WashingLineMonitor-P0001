@@ -39,7 +39,7 @@ jobs:
       - name: Run export
         working-directory: ${{ github.workspace }}
         run: |
-          python export_kicad.py --project-dir . --tag "${{ github.ref_name }}"
+          python lib\pistachio-kicad-library\Export-scripts\export_kicad.py --project-dir . --tag "${{ github.ref_name }}"
 
       - name: Archive artifacts
         uses: actions/upload-artifact@v4
