@@ -2833,6 +2833,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ec604d3-0a78-4326-a032-c63de901940f")
 		)
@@ -2967,15 +2976,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part_Number" "SAM13920TR-ND"
-			(at 41.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "Digikey"
 			(at 41.91 176.53 0)
 			(effects
@@ -2986,6 +2986,24 @@
 			)
 		)
 		(property "Supplier Part Number" "SAM13920TR-ND"
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "SAM13920TR-ND"
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 41.91 176.53 0)
 			(effects
 				(font
@@ -3086,6 +3104,15 @@
 			)
 		)
 		(property "Supplier Part Number" "P10KACT-ND"
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -3303,6 +3330,15 @@
 			)
 		)
 		(property "Supplier" "Digikey"
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" "C3040594"
 			(at 125.73 96.52 0)
 			(effects
 				(font
@@ -3540,6 +3576,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62ec0c9c-1798-4b19-9e7b-2b252048fb20")
 		)
@@ -3602,6 +3647,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 149.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 149.86 124.46 0)
 			(effects
 				(font
@@ -3687,6 +3741,15 @@
 			)
 		)
 		(property "Supplier Part Number" "1276-1003-1-ND"
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 187.96 77.47 0)
 			(effects
 				(font

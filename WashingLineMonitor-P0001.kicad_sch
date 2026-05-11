@@ -13,6 +13,26 @@
 		(comment 2 "AB - Updated from AI review")
 	)
 	(lib_symbols)
+	(text_box "Changes\n-[ ] add power switch(manual plus an sense of if the cloth is connected)\n-[ ] think through wiring better (add mini jst connectors for batt and sense)\n-[ ] add label to battery terminals\n-[ ] use standard 2.54mm sized holes\n-[ ] Removed or up voltage on ESD diode on sensor input. the 3v3 casues issues\n-[ ] Buy several different sensor resistors or reduce (500k is likely too high)\n-[ ] Improve ESD protection\n-[ ] add flex in the line mounting clips to suit metal washing racks"
+		(exclude_from_sim no)
+		(at 50.8 74.93 0)
+		(size 97.79 55.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6da7980d-7117-4f8c-8d73-ed0947eb7e8a")
+	)
 	(sheet
 		(at 44.45 25.4)
 		(size 20.32 19.05)

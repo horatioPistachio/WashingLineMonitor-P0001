@@ -1288,6 +1288,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 59.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa141694-2df3-4163-bac2-6894bf9d0419")
 		)
@@ -1439,6 +1448,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3716b7ba-8c0a-4e38-a031-3ff7b0987ed6")
 		)
@@ -1500,6 +1518,15 @@
 		)
 		(property "Description" "test point"
 			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
+			(at 46.99 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,6 +1611,15 @@
 			)
 		)
 		(property "Supplier" "Digikey"
+			(at 46.99 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 46.99 148.59 0)
 			(effects
 				(font
@@ -1680,6 +1716,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 163.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80ee7bda-c7b4-4ec3-9407-7d8af82315cc")
 		)
@@ -1742,6 +1787,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 167.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 167.64 146.05 0)
 			(effects
 				(font
@@ -1827,6 +1881,15 @@
 			)
 		)
 		(property "Supplier Part Number" "738-RNCF0805BTE500KCT-ND"
+			(at 46.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 46.99 160.02 0)
 			(effects
 				(font
@@ -1923,6 +1986,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 59.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2d8e8014-56d8-42e3-97bc-54159b0a1e9b")
 		)
@@ -2009,6 +2081,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" "C77336"
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f7102a73-daa8-42b2-9547-d5f3eabf3631")
 		)
@@ -2086,6 +2167,15 @@
 			)
 		)
 		(property "Supplier" "Digikey"
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" "C51118 "
 			(at 151.13 151.13 0)
 			(effects
 				(font

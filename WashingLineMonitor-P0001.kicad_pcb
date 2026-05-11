@@ -3136,7 +3136,7 @@
 			(net 2 "GND")
 			(pinfunction "PGND")
 			(pintype "passive")
-			(uuid "ec2c31ff-04e2-4042-b9df-aca232d09603")
+			(uuid "d8515f2d-73ba-47b7-9f36-f9d3b57ac94e")
 		)
 		(pad "21" smd custom
 			(at 0 0 90)
@@ -3161,7 +3161,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "ec2c31ff-04e2-4042-b9df-aca232d09603")
+			(uuid "335815e3-a302-4307-a326-f726e0f4c5f1")
 		)
 		(pad "21" smd roundrect
 			(at 0.275 -2.225 90)
@@ -3171,7 +3171,7 @@
 			(net 2 "GND")
 			(pinfunction "PGND")
 			(pintype "passive")
-			(uuid "ec2c31ff-04e2-4042-b9df-aca232d09603")
+			(uuid "a6e250e3-9fc2-4458-8ae7-03a431646c9b")
 		)
 		(pad "21" smd roundrect
 			(at 0.275 2.225 90)
@@ -3181,7 +3181,7 @@
 			(net 2 "GND")
 			(pinfunction "PGND")
 			(pintype "passive")
-			(uuid "ec2c31ff-04e2-4042-b9df-aca232d09603")
+			(uuid "bad20f8f-fd49-4f14-a545-d7d490d787ed")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/lib/pistachio-kicad-library/Hydro_footprints.pretty/BQ51050BRHLR.step"
@@ -13529,7 +13529,7 @@
 		(start 46.188458 25.628736)
 		(end 46.188458 26.930276)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -13752,7 +13752,7 @@
 		(layer "Edge.Cuts")
 		(uuid "8f6c5da0-de1c-44d2-bb27-c8a1956403c9")
 	)
-	(gr_text "HoratioPistachio\nWashingLineMonitor-P0001_AA"
+	(gr_text "HoratioPistachio\nWashingLineMonitor-P0001_AB"
 		(at 39.5 21 0)
 		(layer "F.SilkS")
 		(uuid "9ee80443-8c00-459f-9e38-864b65a195ad")

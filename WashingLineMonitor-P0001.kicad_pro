@@ -542,7 +542,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "Exports/WashingLineMonitor-P0001_AB/",
       "specctra_dsn": "",
       "step": "Exports/AA/WashingLineMonitor-P0001.step",
       "svg": "",
@@ -665,8 +665,8 @@
         },
         {
           "group_by": false,
-          "label": "Part_Number",
-          "name": "Part_Number",
+          "label": "Digikey_Part_Number",
+          "name": "Digikey_Part_Number",
           "show": false
         },
         {
@@ -715,13 +715,19 @@
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Supplier Part Number",
           "name": "Supplier Part Number",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLC_Part_Number",
+          "name": "JLC_Part_Number",
+          "show": false
         }
       ],
       "filter_string": "",

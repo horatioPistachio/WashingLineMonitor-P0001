@@ -8614,6 +8614,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" "C2650144"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "aa6f4ca3-0682-4792-9ddd-417b5a39c758")
 		)
@@ -8751,6 +8760,15 @@
 			)
 		)
 		(property "Supplier Part Number" "1276-2425-1-ND"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 121.92 90.17 0)
 			(effects
 				(font
@@ -8913,6 +8931,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" "C5331042"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "529ec3c2-04b0-426f-979f-b3618e55cf64")
 		)
@@ -8975,6 +9002,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 160.02 60.96 0)
 			(effects
 				(font
@@ -9066,6 +9102,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 135.89 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "587d806f-ef67-468a-8e8d-1b0ec62eb69d")
 		)
@@ -9146,6 +9191,15 @@
 			)
 		)
 		(property "Supplier Part Number" "1276-2425-1-ND"
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 121.92 78.74 0)
 			(effects
 				(font
@@ -9306,6 +9360,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 134.62 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f86d3ce5-5400-4429-9634-a5db3cfb37ce")
 		)
@@ -9394,6 +9457,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0761c3d3-4b3f-4f5d-ac92-f7c2a5c484f2")
 		)
@@ -9472,6 +9544,15 @@
 			)
 		)
 		(property "Supplier Part Number" "1276-1096-1-ND"
+			(at 109.22 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 109.22 72.39 90)
 			(effects
 				(font
@@ -9568,6 +9649,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3be574e5-0f75-4f45-925e-15d43064cba5")
 		)
@@ -9648,6 +9738,15 @@
 			)
 		)
 		(property "Supplier Part Number" "1276-1029-1-ND"
+			(at 245.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 245.11 68.58 0)
 			(effects
 				(font
@@ -9744,6 +9843,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 219.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0231cdb-943a-4dd5-a234-87aab4f60e7c")
 		)
@@ -9822,6 +9930,15 @@
 			)
 		)
 		(property "Supplier" "Digikey"
+			(at 134.62 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 134.62 38.1 90)
 			(effects
 				(font
@@ -9918,6 +10035,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d0bdbc1-75e3-49bb-8852-2ec2568e714b")
 		)
@@ -9996,6 +10122,15 @@
 			)
 		)
 		(property "Supplier Part Number" "1276-6480-1-ND"
+			(at 135.89 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 135.89 119.38 90)
 			(effects
 				(font
@@ -10156,6 +10291,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 134.62 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0aae3425-f29c-4b45-949f-c826651270ba")
 		)
@@ -10244,6 +10388,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ecd72a35-a501-4c0b-8672-ae6d789426b0")
 		)
@@ -10322,6 +10475,15 @@
 			)
 		)
 		(property "Supplier Part Number" "1276-1244-1-ND"
+			(at 109.22 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 109.22 45.72 90)
 			(effects
 				(font
@@ -10418,6 +10580,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 264.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a37f2be4-6464-437d-af47-98fdca946131")
 		)
@@ -10496,6 +10667,15 @@
 			)
 		)
 		(property "Supplier Part Number" "P20KACT-ND"
+			(at 231.14 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 231.14 91.44 90)
 			(effects
 				(font
@@ -10590,6 +10770,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 135.89 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c075a7c2-2541-4bad-9112-3ddfbf4f4e92")
 		)
@@ -10668,6 +10857,15 @@
 			)
 		)
 		(property "Supplier Part Number" "1276-1244-1-ND"
+			(at 109.22 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 109.22 59.69 90)
 			(effects
 				(font
@@ -10764,6 +10962,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a09fd87e-bcc2-4081-8f78-b74b768ec615")
 		)
@@ -10844,6 +11051,15 @@
 			)
 		)
 		(property "Supplier Part Number" "P10KACT-ND"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 207.01 105.41 0)
 			(effects
 				(font

@@ -2565,6 +2565,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 193.04 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eac13ba1-c24f-431a-8629-f0927506eff3")
 		)
@@ -2645,6 +2654,15 @@
 			)
 		)
 		(property "Supplier Part Number" "BZX84C3V3-FDICT-ND"
+			(at 105.41 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" "C177019"
 			(at 105.41 96.52 90)
 			(effects
 				(font
@@ -2745,6 +2763,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47f5c6d5-59b8-437d-bda2-ee7954c74428")
 		)
@@ -2834,6 +2861,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 199.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "daa38e3e-4777-4247-a3a7-4cb98bc05c40")
 		)
@@ -2914,6 +2950,15 @@
 			)
 		)
 		(property "Supplier" "Digikey"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 170.18 88.9 0)
 			(effects
 				(font
@@ -3202,6 +3247,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 212.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c9058fe-5b5a-4866-9ea7-46ac7c368034")
 		)
@@ -3354,6 +3408,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 177.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86829e0d-4349-4c6f-8714-d4ca892a6674")
 		)
@@ -3442,6 +3505,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fee30dc-49a3-42e4-bfaa-e73d2903ab94")
 		)
@@ -3512,6 +3584,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Part_Number" ""
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee965e9c-e8bf-4ad9-9d44-72583787df96")
 		)
@@ -3572,6 +3653,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 80.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Part_Number" ""
 			(at 80.01 92.71 0)
 			(effects
 				(font
