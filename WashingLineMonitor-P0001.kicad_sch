@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "09468f75-1295-4aed-9d66-1cbb46f6d9f7")
 	(paper "A4")
 	(title_block
@@ -13,7 +13,7 @@
 		(comment 2 "AB - Updated from AI review")
 	)
 	(lib_symbols)
-	(text_box "Changes\n-[ ] add power switch(manual plus an sense of if the cloth is connected)\n-[ ] think through wiring better (add mini jst connectors for batt and sense)\n-[ ] add label to battery terminals\n-[ ] use standard 2.54mm sized holes\n-[ ] Removed or up voltage on ESD diode on sensor input. the 3v3 casues issues\n-[ ] Buy several different sensor resistors or reduce (500k is likely too high)\n-[ ] Improve ESD protection\n-[ ] add flex in the line mounting clips to suit metal washing racks"
+	(text_box "Changes\n-[x] add power switch(manual plus an sense of if the cloth is connected)\n-[ ] think through wiring better (add mini jst connectors for batt and sense)\n-[ ] add label to battery terminals\n-[ ] use standard 2.54mm sized holes\n-[x] Removed or up voltage on ESD diode on sensor input. the 3v3 casues issues\n-[x] Buy several different sensor resistors or reduce (500k is likely too high)\n-[x] Improve ESD protection\n	- No need, exposed metal parts are alredy protected\n-[ ] add flex in the line mounting clips to suit metal washing racks\n-[x] add status LED\n-[x] add humidity and temp sensor (may be used for better k estimation)"
 		(exclude_from_sim no)
 		(at 50.8 74.93 0)
 		(size 97.79 55.88)
@@ -46,11 +46,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "85e6dc6f-9ecf-46c8-b531-16bea54980b8")
 		(property "Sheetname" "Moisture Sensor"
 			(at 44.45 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,6 +62,8 @@
 		)
 		(property "Sheetfile" "Moisture_sensor.kicad_sch"
 			(at 44.45 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,11 +92,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e08ac9de-dc6d-4cae-9407-56af78bc3f75")
 		(property "Sheetname" "MCU"
 			(at 81.28 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,6 +108,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 81.28 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,11 +138,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fe242c69-4638-4ad9-952b-9c215da932fb")
 		(property "Sheetname" "Input Power"
 			(at 110.49 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,6 +154,8 @@
 		)
 		(property "Sheetfile" "INPUT_POWER.kicad_sch"
 			(at 110.49 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
