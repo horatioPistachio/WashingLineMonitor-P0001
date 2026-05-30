@@ -2290,7 +2290,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 43.18) (xy 80.01 43.18)
+			(xy 68.58 43.18) (xy 76.2 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2340,7 +2340,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 95.25 43.18)
+			(xy 86.36 43.18) (xy 95.25 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2594,7 +2594,7 @@
 	)
 	(global_label "Vbatt"
 		(shape input)
-		(at 74.93 43.18 180)
+		(at 68.58 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2604,7 +2604,7 @@
 		)
 		(uuid "0c380f29-40dc-4599-8851-1e1f96bbd097")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.1068 43.18 0)
+			(at 60.7568 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5599,7 +5599,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 85.09 43.18 0)
+		(at 81.28 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5610,7 +5610,7 @@
 		(fields_autoplaced yes)
 		(uuid "789ea8f2-77b9-4d2c-9b25-45f2f978e2c1")
 		(property "Reference" "JP1"
-			(at 85.09 38.1 0)
+			(at 81.28 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5620,7 +5620,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 85.09 40.64 0)
+			(at 81.28 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5630,7 +5630,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +5652,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5663,7 +5663,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5674,7 +5674,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5685,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5696,7 +5696,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5707,7 +5707,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5718,7 +5718,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5729,7 +5729,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5740,7 +5740,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5751,7 +5751,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5762,7 +5762,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5773,7 +5773,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5784,7 +5784,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5795,7 +5795,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 85.09 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
