@@ -5996,7 +5996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a71483e-ec15-486a-824d-1fb6c9da2d4b")
-		(property "Reference" "SenseOut1"
+		(property "Reference" "TP2"
 			(at 214.63 84.3279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6211,7 +6211,7 @@
 		(instances
 			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/85e6dc6f-9ecf-46c8-b531-16bea54980b8"
-					(reference "SenseOut1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6972,7 +6972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4c9543a-5123-475e-9a25-874efd814f68")
-		(property "Reference" "Vsense1"
+		(property "Reference" "TP1"
 			(at 143.51 81.7879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7187,7 +7187,7 @@
 		(instances
 			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/85e6dc6f-9ecf-46c8-b531-16bea54980b8"
-					(reference "Vsense1")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

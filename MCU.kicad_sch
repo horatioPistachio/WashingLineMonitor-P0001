@@ -5212,7 +5212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "489ee5ca-e79e-463e-83de-35f15211da8f")
-		(property "Reference" "T2"
+		(property "Reference" "TP4"
 			(at 250.19 139.1919 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5427,7 +5427,7 @@
 		(instances
 			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/e08ac9de-dc6d-4cae-9407-56af78bc3f75"
-					(reference "T2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -6765,7 +6765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccddf880-ae19-45e6-9be0-beaa4f0fff52")
-		(property "Reference" "GND1"
+		(property "Reference" "TP3"
 			(at 128.27 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,7 +6980,7 @@
 		(instances
 			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/e08ac9de-dc6d-4cae-9407-56af78bc3f75"
-					(reference "GND1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)

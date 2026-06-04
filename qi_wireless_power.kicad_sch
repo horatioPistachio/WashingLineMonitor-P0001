@@ -9533,7 +9533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37edcfe8-a11d-4e8f-be16-ef77115677cb")
-		(property "Reference" "NTC1"
+		(property "Reference" "TP10"
 			(at 201.93 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9748,7 +9748,7 @@
 		(instances
 			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
-					(reference "NTC1")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -9899,7 +9899,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "445-16091-ND"
+		(property "Supplier Part Number" "455-SM02B-SRSS-TBCT-ND"
 			(at 91.44 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9932,7 +9932,7 @@
 				)
 			)
 		)
-		(property "Availability" ""
+		(property "Availability" "445-16091-ND"
 			(at 91.44 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10102,7 +10102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "493891d4-fbbb-45f1-aed6-46b523dad0e2")
-		(property "Reference" "AD-EN1"
+		(property "Reference" "TP9"
 			(at 162.56 56.3879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10317,7 +10317,7 @@
 		(instances
 			(project "WashingLineMonitor-P0001"
 				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/fe242c69-4638-4ad9-952b-9c215da932fb/2f2216a8-e089-410a-a3dd-67c68912bcc4"
-					(reference "AD-EN1")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -14324,7 +14324,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number" "CE04377"
+		(property "Supplier Part Number" "455-SM02B-SRSS-TBCT-ND"
 			(at 264.16 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14368,7 +14368,7 @@
 				)
 			)
 		)
-		(property "Description_1" ""
+		(property "Description_1" "CE04377"
 			(at 264.16 71.12 0)
 			(hide yes)
 			(show_name no)
