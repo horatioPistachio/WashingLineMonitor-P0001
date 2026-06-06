@@ -78,19 +78,11 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|57237500|26350000|2a5e36a4-c89b-40a5-912d-29839c23827a|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|137237500|84350000|2a5e36a4-c89b-40a5-912d-29839c23827a|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_edge_clearance|80350000|13950000|5fe3d7b4-d251-4b20-9e1f-bf36d8588148|d0fc032d-744e-4e39-9a63-4ffd1d0b95b7",
-          ""
-        ],
-        [
-          "silk_edge_clearance|80350000|14000000|5fe3d7b4-d251-4b20-9e1f-bf36d8588148|be997aeb-6ca9-41e2-abdd-a3935bf1cad4",
-          ""
-        ],
-        [
-          "silk_edge_clearance|93844760|14029939|8f6c5da0-de1c-44d2-bb27-c8a1956403c9|f8c04614-e70d-41d0-9e73-52ce2b19a3d2",
+          "lib_footprint_mismatch|167100000|73025000|d1d42e95-346a-40d0-97e0-56689e77b1f8|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -270,7 +262,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "AB"
+      "sch_revision": "AC"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -878,7 +870,7 @@
         "uuid": "09468f75-1295-4aed-9d66-1cbb46f6d9f7"
       }
     ],
-    "used_designators": "TP1-17",
+    "used_designators": "TP1-17,FID1-3",
     "variants": []
   },
   "sheets": [

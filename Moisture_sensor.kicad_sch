@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "WashingLineMonitor-P0001")
-		(date "2025-09-14")
-		(rev "AB")
+		(date "2026-06-06")
+		(rev "AC")
 		(company "Horatio Pistachio")
 	)
 	(lib_symbols
@@ -5990,7 +5990,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6966,7 +6966,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
