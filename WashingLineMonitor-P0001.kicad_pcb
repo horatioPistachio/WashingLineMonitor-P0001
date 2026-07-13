@@ -27507,6 +27507,17 @@
 		(layer "F.SilkS")
 		(uuid "7cf77329-f7a9-47f7-8bc0-22159fd85e41")
 	)
+	(gr_rect
+		(start 156 72.25)
+		(end 174 97.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "7cf58717-6275-495d-ab34-1fffb174a3b2")
+	)
 	(gr_arc
 		(start 117 74)
 		(mid 117.585786 72.585786)

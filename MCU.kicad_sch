@@ -2348,10 +2348,10 @@
 		(uuid "11fddac0-9f3b-42b2-b419-0b7016198c67")
 	)
 	(junction
-		(at 82.55 55.88)
+		(at 63.5 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16f4d9af-b357-47fd-a66c-932a4a42d0d7")
+		(uuid "15aac9ef-e3f3-4cae-89f8-c8310e9b835c")
 	)
 	(junction
 		(at 247.65 132.08)
@@ -2402,16 +2402,16 @@
 		(uuid "a30fafa2-0d4b-41f4-b8b4-f696a7efea7f")
 	)
 	(junction
-		(at 82.55 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab60020b-dc89-4bb3-b1b9-b8d32f2d6f59")
-	)
-	(junction
 		(at 231.14 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1731ed7-72c6-4df5-929f-8ec4ca8a53f9")
+	)
+	(junction
+		(at 73.66 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c47324e9-c9ec-412a-aaf1-18e15c58c1a9")
 	)
 	(junction
 		(at 231.14 110.49)
@@ -2424,6 +2424,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7ad191c-4634-42c3-8f22-4ce148907fe1")
+	)
+	(junction
+		(at 63.5 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f73378dc-9b2b-4216-bd01-d30bb66dc10b")
 	)
 	(no_connect
 		(at 138.43 96.52)
@@ -2444,10 +2450,6 @@
 	(no_connect
 		(at 138.43 101.6)
 		(uuid "9b83648f-6eef-438d-b07c-ace46680b340")
-	)
-	(no_connect
-		(at 107.95 99.06)
-		(uuid "abdfabd2-6321-486b-9ca7-f1b9da68f6d7")
 	)
 	(no_connect
 		(at 138.43 78.74)
@@ -2525,23 +2527,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 76.2) (xy 82.55 76.2)
+			(xy 63.5 99.06) (xy 107.95 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "203f8a68-56c5-45fe-b0e7-264cded237f4")
-	)
-	(wire
-		(pts
-			(xy 100.33 96.52) (xy 107.95 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2071a6db-0374-4b74-9039-28afb61d2400")
 	)
 	(wire
 		(pts
@@ -2575,6 +2567,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 96.52) (xy 107.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2caa0553-f097-455f-8144-43db7907fd21")
+	)
+	(wire
+		(pts
 			(xy 138.43 73.66) (xy 146.05 73.66)
 		)
 		(stroke
@@ -2605,6 +2607,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 99.06) (xy 50.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383b2e99-31ad-4c07-a843-5c07a27902d9")
+	)
+	(wire
+		(pts
 			(xy 123.19 124.46) (xy 123.19 128.27)
 		)
 		(stroke
@@ -2615,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 55.88) (xy 82.55 60.96)
+			(xy 63.5 55.88) (xy 63.5 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 68.58) (xy 82.55 76.2)
+			(xy 63.5 73.66) (xy 63.5 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2675,16 +2687,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 55.88) (xy 105.41 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ad7956-9dd1-4dac-a218-93cd813885b3")
-	)
-	(wire
-		(pts
 			(xy 123.19 116.84) (xy 123.19 124.46)
 		)
 		(stroke
@@ -2712,6 +2714,16 @@
 			(type default)
 		)
 		(uuid "697e4b9f-fd30-47c3-8d56-120615f39857")
+	)
+	(wire
+		(pts
+			(xy 73.66 66.04) (xy 73.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa57133-36d0-40d2-929e-93b9594fa418")
 	)
 	(wire
 		(pts
@@ -2885,6 +2897,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 55.88) (xy 105.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abf2983-77dc-4faf-b863-1c67c46527f3")
+	)
+	(wire
+		(pts
+			(xy 100.33 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af92498-9c05-4ef8-9e2b-661d17456d76")
+	)
+	(wire
+		(pts
 			(xy 260.35 114.3) (xy 260.35 110.49)
 		)
 		(stroke
@@ -2935,16 +2967,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 82.55 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad45bf5f-af4f-4138-8d53-c3f2272b096c")
-	)
-	(wire
-		(pts
 			(xy 138.43 83.82) (xy 142.24 83.82)
 		)
 		(stroke
@@ -2982,6 +3004,16 @@
 			(type default)
 		)
 		(uuid "b4cdc0f4-e1a7-4a2f-9830-a0b73e051e43")
+	)
+	(wire
+		(pts
+			(xy 73.66 96.52) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc590a26-866d-4aee-beed-209a642528df")
 	)
 	(wire
 		(pts
@@ -3075,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 55.88) (xy 82.55 55.88)
+			(xy 49.53 55.88) (xy 63.5 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3115,7 +3147,7 @@
 	)
 	(global_label "ESP_BOOT"
 		(shape input)
-		(at 66.04 76.2 180)
+		(at 50.8 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3125,7 +3157,7 @@
 		)
 		(uuid "04909a71-c6ca-4a6b-a943-5098d5a01628")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.5601 76.2 0)
+			(at 38.3201 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3150,6 +3182,30 @@
 		(uuid "053ea8fa-4bf5-416e-aab1-b1b35d55adbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 82.5282 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MEAS_BATT"
+		(shape input)
+		(at 100.33 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d702d85-684e-46c4-8292-90ee7e03a1fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.1849 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3206,6 +3262,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 100.33 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40a492ff-7ed8-402f-b7d1-fcfde9580b26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.8372 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3329,30 +3409,6 @@
 			)
 		)
 	)
-	(global_label "MEAS_BATT"
-		(shape input)
-		(at 100.33 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83c582f8-de68-456d-bdff-cef46d0922c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.1849 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "3V3"
 		(shape input)
 		(at 57.15 173.99 0)
@@ -3374,30 +3430,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 100.33 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8babd17e-6493-4bb7-bb72-a68b4bb70916")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.8372 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -3571,7 +3603,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 67.31 55.88 180)
+		(at 49.53 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3581,7 +3613,7 @@
 		)
 		(uuid "b687ef84-face-449f-9775-87b4c93b5b28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.8172 55.88 0)
+			(at 43.0372 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,7 +6193,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 64.77 0)
+		(at 73.66 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6170,9 +6202,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac71feb4-900e-4636-baf4-11b53ad94b92")
-		(property "Reference" "R5"
-			(at 85.09 63.4999 0)
+		(uuid "aa54b398-6e58-4299-a7bb-7ba1359fba98")
+		(property "Reference" "R21"
+			(at 76.2 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6183,7 +6215,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 85.09 66.0399 0)
+			(at 76.2 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6194,7 +6226,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 80.772 64.77 90)
+			(at 71.882 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6205,7 +6237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6216,7 +6248,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6227,7 +6259,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6238,7 +6270,7 @@
 			)
 		)
 		(property "Supplier Part Number" "P10KACT-ND"
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6249,7 +6281,7 @@
 			)
 		)
 		(property "JLC_Part_Number" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6260,7 +6292,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6271,7 +6303,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6282,7 +6314,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6293,7 +6325,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6304,7 +6336,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6315,7 +6347,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6326,7 +6358,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6337,7 +6369,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6348,7 +6380,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6359,7 +6391,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6370,7 +6402,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6381,7 +6413,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6392,7 +6424,265 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 82.55 64.77 0)
+			(at 73.66 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8985ebeb-4523-4f41-9c39-9ca391755a9a")
+		)
+		(pin "2"
+			(uuid "06cb9272-a099-412d-82fe-e5effefc2330")
+		)
+		(instances
+			(project "WashingLineMonitor-P0001"
+				(path "/09468f75-1295-4aed-9d66-1cbb46f6d9f7/e08ac9de-dc6d-4cae-9407-56af78bc3f75"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac71feb4-900e-4636-baf4-11b53ad94b92")
+		(property "Reference" "R5"
+			(at 66.04 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 66.04 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 61.722 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number" "P10KACT-ND"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_Part_Number" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 63.5 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
