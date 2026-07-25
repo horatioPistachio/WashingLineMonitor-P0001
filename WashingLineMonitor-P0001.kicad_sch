@@ -11,7 +11,8 @@
 		(company "Horatio Pistachio")
 		(comment 1 "AA - Original")
 		(comment 2 "AB - Updated from AI review")
-		(comment 3 "AC - Added Connector, Switch to ESP32 C3, added humidity sensor and power switch")
+		(comment 3 "AC - Added Connector, Switch to ESP32 C6, added humidity sensor and power switch")
+		(comment 4 "AD - Fixed issue with ESP boot pin, switched to new large esp package, replaced mosfet with power switch")
 	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"
@@ -110,26 +111,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text_box "TODO\n-[ ] Fix boot pin strappinmg, refer datasheet\n-[ ] Consider castellated esp\n-[ ] use a power switch instead of m,osfet dohickley"
-		(exclude_from_sim no)
-		(at 54.61 77.47 0)
-		(size 55.88 40.64)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "8a208937-dfcc-4583-ae45-9fcc0b08cd63")
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
